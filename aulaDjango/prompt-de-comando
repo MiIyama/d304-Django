@@ -118,3 +118,254 @@ Django version 2.2.3, using settings 'aulaDjango.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 [22/Jul/2019 09:31:19] "GET / HTTP/1.1" 200 283
+[22/Jul/2019 09:39:03] "GET / HTTP/1.1" 200 283
+[22/Jul/2019 09:52:45] "GET / HTTP/1.1" 200 283
+[22/Jul/2019 09:52:46] "GET / HTTP/1.1" 200 283
+[22/Jul/2019 09:52:47] "GET / HTTP/1.1" 200 283
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\aulaDjango\home\views.py", line 6, in home
+    return render(request, 'index.html')
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\base.py", line 534, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'static'. Did you forget to register or load this tag?
+[22/Jul/2019 09:59:54] "GET / HTTP/1.1" 500 121565
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\aulaDjango\home\views.py", line 6, in home
+    return render(request, 'index.html')
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\base.py", line 534, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'static'. Did you forget to register or load this tag?
+[22/Jul/2019 09:59:55] "GET / HTTP/1.1" 500 121565
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\aulaDjango\home\views.py", line 6, in home
+    return render(request, 'index.html')
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\ambiente\lib\site-packages\django\template\base.py", line 534, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'static'. Did you forget to register or load this tag?
+[22/Jul/2019 10:00:54] "GET / HTTP/1.1" 500 121565
+[22/Jul/2019 10:01:27] "GET / HTTP/1.1" 200 407
+[22/Jul/2019 10:01:27] "GET /static/static/home.css HTTP/1.1" 404 1669
+[22/Jul/2019 10:01:28] "GET / HTTP/1.1" 200 407
+[22/Jul/2019 10:01:28] "GET /static/static/home.css HTTP/1.1" 404 1669
+[22/Jul/2019 10:01:29] "GET / HTTP/1.1" 200 407
+[22/Jul/2019 10:01:29] "GET /static/static/home.css HTTP/1.1" 404 1669
+[22/Jul/2019 10:01:40] "GET / HTTP/1.1" 200 407
+[22/Jul/2019 10:01:41] "GET /static/static/home.css HTTP/1.1" 404 1669
+[22/Jul/2019 10:01:41] "GET / HTTP/1.1" 200 407
+[22/Jul/2019 10:01:41] "GET /static/static/home.css HTTP/1.1" 404 1669
+
+(ambiente) C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\aulaDjango>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+July 22, 2019 - 10:04:26
+Django version 2.2.3, using settings 'aulaDjango.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[22/Jul/2019 10:04:27] "GET / HTTP/1.1" 200 342
+[22/Jul/2019 10:04:27] "GET /static/static/home.css HTTP/1.1" 404 1669
+[22/Jul/2019 10:05:16] "GET / HTTP/1.1" 200 335
+[22/Jul/2019 10:05:16] "GET /static/home.css HTTP/1.1" 200 62
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\aulaDjango\aulaDjango\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+July 22, 2019 - 10:28:26
+Django version 2.2.3, using settings 'aulaDjango.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[22/Jul/2019 10:28:48] "GET / HTTP/1.1" 200 335
+[22/Jul/2019 10:28:48] "GET /static/home.css HTTP/1.1" 304 0
+[22/Jul/2019 10:29:02] "GET / HTTP/1.1" 200 335
+[22/Jul/2019 10:29:03] "GET / HTTP/1.1" 200 335
+[22/Jul/2019 10:29:04] "GET / HTTP/1.1" 200 335
+[22/Jul/2019 10:29:04] "GET / HTTP/1.1" 200 335
+
+(ambiente) C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\aulaDjango>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+July 22, 2019 - 10:29:12
+Django version 2.2.3, using settings 'aulaDjango.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[22/Jul/2019 10:29:13] "GET / HTTP/1.1" 200 335
+[22/Jul/2019 10:29:14] "GET / HTTP/1.1" 200 335
+[22/Jul/2019 10:29:23] "GET / HTTP/1.1" 200 335
+[22/Jul/2019 10:29:24] "GET / HTTP/1.1" 200 335
+
+(ambiente) C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\aulaDjango>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+July 22, 2019 - 10:29:37
+Django version 2.2.3, using settings 'aulaDjango.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[22/Jul/2019 10:29:40] "GET / HTTP/1.1" 200 335
+[22/Jul/2019 10:29:40] "GET / HTTP/1.1" 200 335
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\aulaDjango\aulaDjango\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+July 22, 2019 - 10:29:58
+Django version 2.2.3, using settings 'aulaDjango.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[22/Jul/2019 10:30:08] "GET / HTTP/1.1" 200 335
+[22/Jul/2019 10:30:24] "GET / HTTP/1.1" 200 332
+[22/Jul/2019 10:32:27] "GET / HTTP/1.1" 200 335
+[22/Jul/2019 10:32:27] "GET /static/home.css HTTP/1.1" 200 54
+[22/Jul/2019 10:32:28] "GET / HTTP/1.1" 200 335
+[22/Jul/2019 10:32:45] "GET / HTTP/1.1" 200 335
+[22/Jul/2019 10:32:45] "GET /static/home.css HTTP/1.1" 200 46
+[22/Jul/2019 10:32:46] "GET / HTTP/1.1" 200 335
+[22/Jul/2019 10:32:46] "GET /static/home.css HTTP/1.1" 304 0
+[22/Jul/2019 10:32:46] "GET / HTTP/1.1" 200 335
+[22/Jul/2019 10:32:46] "GET /static/home.css HTTP/1.1" 304 0
+[22/Jul/2019 10:32:47] "GET / HTTP/1.1" 200 335
+[22/Jul/2019 10:32:47] "GET /static/home.css HTTP/1.1" 304 0
+[22/Jul/2019 10:32:47] "GET / HTTP/1.1" 200 335
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\aulaDjango\aulaDjango\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+July 22, 2019 - 10:40:24
+Django version 2.2.3, using settings 'aulaDjango.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+(ambiente) C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\aulaDjango>pip freeze
+Django==2.2.3
+pytz==2019.1
+sqlparse==0.3.0
+
+(ambiente) C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\aulaDjango>pip freeze > requirements.txt
+
+(ambiente) C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama\aulaDjango>
