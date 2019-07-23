@@ -1,7 +1,7 @@
 entrar:
     https://tutorial.djangogirls.org/pt/django_installation/
 
-;
+
 
 
 O endereço do site é um DNS (apelido) o "servidor" consulta e busca qual é o ip do site
