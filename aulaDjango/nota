@@ -97,7 +97,7 @@ manage.py - gerencie tudo do projeto
     gerenciar banco de dados por ele .....
 
 
-    python manage.py runserver
+    python manage.py runserver #dentro da pasta do projeto q criou
         Watching for file changes with StatReloader
         Performing system checks...
 
