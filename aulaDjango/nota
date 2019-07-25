@@ -78,7 +78,7 @@ INSTALAR DJANGO
             testserver
         Note that only Django core commands are listed as settings are not properly configured (error: Requested setting INSTALLED_APPS, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.).
 
-(ambiente) C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama>django-admin startproject aulaDjango #a cria o projeto com as estruturas necessarias
+(ambiente) C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\AcadMiIyama>django-admin startproject nome_projeto(melhpr o nome da pasta do proj) . -> ponto não cria outra pasta #a cria o projeto com as estruturas necessarias
 
 *****************************************************************************************************************************************
 DJANGO: aplicaçoa criado no Python 
