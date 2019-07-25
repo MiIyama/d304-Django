@@ -126,7 +126,7 @@ crtl C sair do servidor
 
 wsgi configura ambiente de produçao
 
-python manage.py startapp Home cria pasta (home)
+python manage.py startapp nomedoapp->home  cria pasta (home) ou django-admin startproject nomedoapp
 
 
 criar um pasta da pasta home
